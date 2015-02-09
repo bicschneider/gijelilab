@@ -1,14 +1,13 @@
 #Continuous Delivery & DevOps conference Oslo 2015
 
-__GiJeLi Pages for www.code-conf.com/osl15__
+__GiJeLi Pages for yoursite/gijelilab__
 
-The site is designed to be a sub site to www.code-conf.com hosted from a subdirectory named `osl15`.
 
 The site is hosted by Github pages as a project (sub) site, therfore the live branch is `gh-pages` and not `master`. This is by convention, study the difference between [project sites and user/organisation sites](https://help.github.com/articles/user-organization-and-project-pages/) if your curious about the details.
 
 To serve a jekyll site you fire it up with a `baseurl` setting as a parameter when you start the server:
 
-    jekyll serve --baseurl /osl15 --watch
+    jekyll serve --baseurl /gijelilab --watch
 
 Use this approach when you are testing locally. Don't fall for the trick and set this setting permanently in your `_config.yml` since this is also read and applied by Github pages but we're already hosting is as a project (sub) page so it will end up double as www.code-conf.com/osl15/osl15 - which is crab.
 

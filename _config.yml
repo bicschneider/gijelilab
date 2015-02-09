@@ -1,7 +1,7 @@
-name: CoDe Oslo Conference 2015
+name: Gijelilab
 highlighter: pygments
 exclude: [README.md]
 timezone: Europe/Copenhagen
-url: www.code-conf.com/osl15
-root: /osl15
+url: http://www.lakruzz.com/gijelilab/
+root: /gijelilab
 markdown: kramdown
